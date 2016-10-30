@@ -6,8 +6,8 @@
 var shareData = {
 	title: '西子美人萦',
 	desc: 'Heaven on Earth',
-	img_url: 'http://op.cctvnews.cn/2016/G20/thumbnail.jpg',
-	site_link: 'http://op.cctvnews.cn/2016/G20/index.html',
+	img_url: 'http://example.com/thumbnail.jpg',
+	site_link: 'http://example.com/index.html',
 	success: null,
 	cancel: null
 };
