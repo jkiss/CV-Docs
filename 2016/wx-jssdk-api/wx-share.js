@@ -59,7 +59,7 @@ wx.ready(function(){
 
 $.ajax({
 	type: "post",
-	url: 'http://fex.cctvnews.cn/api/wx-jssdk-auth',
+	url: '',
 	dataType: "json",
 	data: {
 		url: location.href.split("#")[0],
