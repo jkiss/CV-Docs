@@ -1,5 +1,5 @@
 /**
- * Wechat Share Data
+ * Wechat Share Data Config
  * Author @Nokey
  */
 
