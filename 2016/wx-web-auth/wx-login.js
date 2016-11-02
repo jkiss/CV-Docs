@@ -5,7 +5,7 @@
 
 function parseUrlParams(){
 	var searchArr = window.location.search.slice(1).split('&'),
-			params = {};
+		params = {};
 
 	$(searchArr).each(function(index, paramStr) {
 		var paramArr = paramStr.split('=');
@@ -17,7 +17,7 @@ function parseUrlParams(){
 }
 
 var UrlParams = parseUrlParams(),
-		appid = 'wx88888888888888';
+	appid = 'wx88888888888888';
 
 if(!!UrlParams.code){
 	$.ajax({
