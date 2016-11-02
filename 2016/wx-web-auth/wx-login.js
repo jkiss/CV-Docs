@@ -4,16 +4,16 @@
  */
 
 function parseUrlParams(){
-	var searchArr = window.location.search.slice(1).split('&'),
-		params = {};
+  var searchArr = window.location.search.slice(1).split('&'),
+      params = {};
 
-	$(searchArr).each(function(index, paramStr) {
-		var paramArr = paramStr.split('=');
+  $(searchArr).each(function(index, paramStr) {
+    var paramArr = paramStr.split('=');
 
-		params[paramArr[0]] = paramArr[1];
-	});
+    params[paramArr[0]] = paramArr[1];
+  });
 
-	return params;
+  return params;
 }
 
 var UrlParams = parseUrlParams(),
